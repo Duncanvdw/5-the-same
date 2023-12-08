@@ -195,25 +195,34 @@ function reset() {
     button.style.visibility = "visible";
 
     const IMG = document.getElementById("IMG");
-    IMG.setAttribute("src", "./images/MEX.png")
+    IMG.setAttribute("src", "./images/bier.png");
     
     const Image = document.getElementById("Image");
-    Image.setAttribute("src", "./images/EN.png")
+    Image.setAttribute("src", "./images/bier.png");
+
+    const Image2 = document.getElementById("Image2");
+    Image2.setAttribute("src", "./images/bier.png");
+
+    const Image3 = document.getElementById("Image3");
+    Image3.setAttribute("src", "./images/bier.png");
+
+    const Image4 = document.getElementById("Image4");
+    Image4.setAttribute("src", "./images/bier.png");
 
     const lockreset1 = document.getElementById("lock1");
-    lockreset1.setAttribute("src", "./images/unlock.png")
+    lockreset1.setAttribute("src", "./images/unlock.png");
 
     const lockreset2 = document.getElementById("lock2");
-    lockreset2.setAttribute("src", "./images/unlock.png")
+    lockreset2.setAttribute("src", "./images/unlock.png");
 
     const lockreset3 = document.getElementById("lock3");
-    lockreset3.setAttribute("src", "./images/unlock.png")
+    lockreset3.setAttribute("src", "./images/unlock.png");
 
     const lockreset4 = document.getElementById("lock4");
-    lockreset4.setAttribute("src", "./images/unlock.png")
+    lockreset4.setAttribute("src", "./images/unlock.png");
 
     const lockreset5 = document.getElementById("lock5");
-    lockreset5.setAttribute("src", "./images/unlock.png")
+    lockreset5.setAttribute("src", "./images/unlock.png");
 }
 
 // dobbelsteen 1
